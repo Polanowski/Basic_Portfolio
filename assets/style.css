@@ -1,0 +1,225 @@
+/*Bootstrap Adjustments*/
+
+/*================== Header bar and navigation ====================*/
+.navbar-nav {
+    float: right;
+}
+
+nav.navbar.navbar-default {
+    background: #fff;
+}
+
+li.active a {
+    background: #4baaa4!important;
+    color: #fff!important;
+}
+
+.nav li a:hover {
+    background: #4baaa4!important;
+    color: #fff!important;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #4baaa4!important;
+}
+/*========================== Content and Body ==========================*/
+body {
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+section {
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+section ul {
+    clear: both;
+}
+
+section img {
+    max-width: 250px;
+    float: left;
+    padding-right: 15px;
+}
+
+h2, h1 {
+    color: #4baaa4!important;
+}
+
+a.navbar-brand {
+    background: #4baaa4;
+    color: #fff!important;
+}
+
+section hr {
+    border-top: 2px solid #a3a8b9;
+}
+
+/*================== Connect With Me ===================*/
+.fa {
+    font-size: 40px;
+    padding: 5px 10px;
+}
+
+i.fa.fa-stack-overflow {
+    background: #f6990b;
+    color: #fff;
+}
+
+i.fa.fa-stack-overflow:hover {
+    background: #fff;
+    color: #f6990b;
+}
+
+i.fa.fa-linkedin {
+    background: #2673b2;
+    color: #fff;
+}
+
+i.fa.fa-linkedin:hover {
+    color: #2673b2;
+    background: #fff;
+}
+
+i.fa.fa-github {
+    color: #fff;
+    background: #000;
+}
+
+i.fa.fa-github:hover {
+    color: #000;
+    background: none;
+}
+/*====================== Portfolio Page =========================*/
+figure.half {
+    display: inline-block;
+    position: relative;
+    margin: 20px auto;
+}
+figcaption {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    background: #4baaa4;
+    text-align: center;
+    color: #fff;
+}
+
+figcaption p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+img.portfolio {
+    max-width: 300px;
+    width: 100%;
+}
+
+figure:nth-child(odd) {
+    margin-right: 24px;
+}
+
+img.portfolio:hover {
+    border-radius: 0px;
+}
+
+figure.half img {
+    padding: 0px;
+}
+
+section {
+        text-align: center;
+}
+
+section.first {
+    text-align: left;
+}
+
+section.last img {
+    width: 50px;
+    display: inline-block;
+}
+
+section a {
+    display: inline-block;
+}
+
+section.last img:hover {
+    opacity: 0.7;
+}
+/*====================== Form Settings ======================*/
+label {
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: #666;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 10px 0px 10px 0px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: #4baaa4;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 15px 0px 20px;
+}
+/*============================ Footer =================*/
+footer {
+    bottom: 0;
+    width: 100%;
+    background: #5d5d5d;
+    padding: 20px 0px;
+    text-align: center;
+    border-top: 10px solid #53a39c;
+    margin-top: 100px;
+}
+
+.copyright {
+    color: #ccc;
+}
+
+@media (max-width:1200px){
+    figure:nth-child(odd) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 980px) {
+    section.last {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .container-fluid {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul.nav.navbar-nav {
+        float: none;
+    }
+}
+
+@media (max-width: 480px){
+section img {
+    float: none;
+}
+}

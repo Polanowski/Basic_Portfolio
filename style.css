@@ -1,0 +1,72 @@
+/*Bootstrap Adjustments*/
+
+/*================== Header bar and navigation ====================*/
+.navbar-nav {
+    float: right;
+}
+
+/*========================== Content and Body ==========================*/
+body {
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+section {
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+section ul {
+    clear: both;
+}
+
+section img {
+    max-width: 250px;
+    float: left;
+}
+
+h2, h1 {
+    color: #4baaa4!important;
+}
+
+a.navbar-brand {
+    background: #4baaa4;
+    color: #fff!important;
+}
+
+/*================== Connect With Me ===================*/
+.fa {
+    font-size: 40px;
+    padding: 5px 10px;
+}
+
+i.fa.fa-stack-overflow {
+    background: #f6990b;
+    color: #fff;
+}
+
+i.fa.fa-stack-overflow:hover {
+    background: #fff;
+    color: #f6990b;
+}
+
+i.fa.fa-linkedin {
+    background: #2673b2;
+    color: #fff;
+}
+
+i.fa.fa-linkedin:hover {
+    color: #2673b2;
+    background: #fff;
+}
+
+i.fa.fa-github {
+    color: #fff;
+    background: #000;
+}
+
+i.fa.fa-github:hover {
+    color: #000;
+    background: none;
+}
